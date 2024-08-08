@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div className='flex flex-col justify-center items-center h-screen'
     style={{
-      backgroundColor: data?.current?.temp_c > 24 ? 'yellow' : 'grey'
+      backgroundColor: data?.current?.temp_c > 24 ? 'orange' : 'grey'
     }}>
       <h1 className='text-3xl mb-6 '>weather app</h1>
       <div>
